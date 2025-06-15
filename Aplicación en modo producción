@@ -1,0 +1,26 @@
+# Informe -  Contenerización de Aplicación Web
+
+## 🔧 Descripción
+
+Se despliega una aplicación completa con frontend (React/Angular), backend (Node.js) y base de datos (PostgreSQL) usando Docker y Docker Compose. El frontend se sirve con Nginx en modo producción.
+
+## 🗂 Estructura del Proyecto
+
+- frontend/
+- backend/
+- nginx/
+- docker-compose.yml
+
+## 🚀 Pasos Realizados
+
+1. Dockerfile para el frontend con doble etapa (build y Nginx).
+2. Configuración personalizada de Nginx.
+3. Dockerfile para el backend con Express.
+4. docker-compose para integrar todos los servicios.
+5. Pruebas de conexión entre contenedores.
+
+## 🖼 Resultado
+
+- Frontend disponible en: http://localhost.3000
+- Backend disponible en: http://localhost:3001
+
